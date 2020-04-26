@@ -1,9 +1,12 @@
-#BY SUYASH PHATAK
+'''
 
-#Python File
+Morse Code Translator
+@author : Suyash Shivaji Phatak
+Date: 15/11/2019
 
-#MORSE CODE TRANSLATOR
+'''
 
+# Dictonary for morse code and alphabets
 MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
    'C':'-.-.', 'D':'-..', 'E':'.',
    'F':'..-.', 'G':'--.', 'H':'....',
@@ -20,6 +23,9 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
    '?':'..--..', '/':'-..-.', '-':'-....-',
    '(':'-.--.', ')':'-.--.-'
 }
+
+# Function for converting string into morse-code
+
 def morsify(text):
    morse_code = ''
    for x in text:
@@ -28,10 +34,13 @@ def morsify(text):
       else:
          morse_code += ' '
    return morse_code
+
+# Main function
+
 def main():
-   my_text = input("Enter a string in English to convert in Morse code:")
+   my_text = input("\nEnter a string in English to convert in Morse code: ")
    output = morsify(my_text.upper())
-   print ('Your Morse code is ' + output)
+   print ('\nYour Morse code is ' + output)
 
 if __name__ == '__main__':
    main()
