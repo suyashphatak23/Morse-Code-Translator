@@ -3,7 +3,10 @@
 
 # Morse Code Translator
 
- Translate English language into Morse Code (Dots . and Dashes - )  
+Translate English language into Morse Code (Dots . and Dashes - )
+ 
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
+[![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)
 
 # Morse Code Dictionary
 
