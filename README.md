@@ -22,7 +22,7 @@ Translate English language into Morse Code (Dots . and Dashes - )
 
 # Clone
 
-***Clone this repo to your local machine using*** **https://github.com/suyashphatak23/Fuction-Graphs**
+***Clone this repo to your local machine using*** **https://github.com/suyashphatak23/Morse-Code-Translator**
 
 # Setup
 
